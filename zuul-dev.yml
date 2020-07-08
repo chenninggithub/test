@@ -1,0 +1,45 @@
+zuul:
+  prefix: /cmi
+  routes:
+    auth: /auth/api/**
+    # 定义一个tcv路由
+    app-tcv:
+      # 访问路径
+      path: /tcv/**
+      # 转发到服务名为tcv的服务
+      serviceId: app-tcv
+
+    app-incomeDetail:
+      path: /incomeDetail/**
+      serviceId: app-incomeDetail
+
+#    app-generateorder:
+#      path: /generateOrder/**
+#      serviceId: app-generateOrder
+
+    app-billing:
+      path: /billing/**
+      serviceId: app-billing
+
+    app-historyCheck:
+      path: /historyCheck/**
+      serviceId: app-historyCheck
+
+    app-keyIndex:
+      path: /keyIndex/**
+      serviceId: app-keyIndex
+
+    #客户总览
+    app-customer:
+      path: /cust/**
+      serviceId: app-customer
+
+    #快速询价器
+    app-enquiry:
+      path: /enquiry/**
+      serviceId: app-enquiry
+
+    #销售助手
+    app-saleAssistant:
+      path: /saleAssistant/**
+      serviceId: app-saleAssistant
