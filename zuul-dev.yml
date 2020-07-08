@@ -13,9 +13,9 @@ zuul:
       path: /incomeDetail/**
       serviceId: app-incomeDetail
 
-#    app-generateorder:
-#      path: /generateOrder/**
-#      serviceId: app-generateOrder
+    app-generateorder:
+      path: /generateOrder/**
+      serviceId: app-generateOrder
 
     app-billing:
       path: /billing/**
