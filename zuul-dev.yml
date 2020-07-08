@@ -4,9 +4,9 @@ zuul:
       path: /tcv/**
       serviceId: app-tcv
 
-    app-incomeDetail:
-      path: /incomeDetail/**
-      serviceId: app-incomeDetail
+ #   app-incomeDetail:
+ #     path: /incomeDetail/**
+ #     serviceId: app-incomeDetail
 
     app-generateorder:
       path: /generateOrder/**
