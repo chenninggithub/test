@@ -3,11 +3,11 @@ zuul:
   routes:
     auth: /auth/api/**
     # 定义一个tcv路由
-    app-tcv:
+    #app-tcv:
       # 访问路径
-      path: /tcv/**
+    #  path: /tcv/**
       # 转发到服务名为tcv的服务
-      serviceId: app-tcv
+    #  serviceId: app-tcv
 
     app-incomeDetail:
       path: /incomeDetail/**
